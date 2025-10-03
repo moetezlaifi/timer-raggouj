@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('assets/wallpaper.jpg') no-repeat center center/cover; /* Replace with your wallpaper */
+  font-family: 'Arial', sans-serif;
+}
+
+.timer-container {
+  text-align: center;
+  background: rgba(0,0,0,0.6);
+  padding: 60px;
+  border-radius: 20px;
+}
+
+.timer {
+  font-size: 8rem;
+  font-weight: bold;
+  color: #00ffcc;
+  text-shadow: 2px 2px 8px black;
+  margin-bottom: 20px;
+}
+
+.controls button {
+  font-size: 1.2rem;
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #00ffcc;
+  color: #000;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.controls button:hover {
+  background: #00cc99;
+}
