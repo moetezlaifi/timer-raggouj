@@ -12,12 +12,12 @@ body {
 .timer-container {
   text-align: center;
   background: rgba(0,0,0,0.6);
-  padding: 60px;
+  padding: 80px;
   border-radius: 20px;
 }
 
 .timer {
-  font-size: 8rem;
+  font-size: 10rem;
   font-weight: bold;
   color: #00ffcc;
   text-shadow: 2px 2px 8px black;
